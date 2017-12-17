@@ -22,6 +22,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   </head>
 
@@ -63,7 +64,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bienvenue sur mon site web personnel !</div>
           <div class="intro-heading text-uppercase">Étudiante en Gestion, Management et pilotage des organisations.</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Lancez-vous !</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger animated bounce" href="#services">Lancez-vous !</a>
         </div>
       </div>
     </header>
@@ -79,29 +80,29 @@
         <div class="row text-center">
           <div style="text-align: justify;" id="txtAbout" class="col-md-8">
             <p>
-              Je m'appelle Maureen Kermarrec, j'ai 20 ans et je suis originaire du Finistère et plus précisément de Brest.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Je m'appelle Maureen Kermarrec, j'ai 20 ans et je suis originaire du Finistère et plus précisément de Brest.
             </p>
             <p>
-              Je suis actuellement en Licence 3 Gestion, Management et pilotage des organisations à l'IAE de Brest.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Je suis actuellement en Licence 3 Gestion, Management et pilotage des organisations à l'IAE de Brest.
             </p>
             <p>
-              Côté loisirs, j'aime voyager, je m'intéresse à la mode et je pratique du sport comme la danse.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Côté loisirs, j'aime voyager, je m'intéresse à la mode et je pratique du sport comme la danse.
             </p>
             <p>
-            Mes connaissances me permettent d'être autonome. Je suis rigoureuse, j'ai une grande capacité d'adaptation et un bon relationnel. Je peux donc travailler seul ou facilement m'intégrer dans une équipe. 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mes connaissances me permettent d'être autonome. Je suis rigoureuse, j'ai une grande capacité d'adaptation et un bon relationnel. Je peux donc travailler seul ou facilement m'intégrer dans une équipe. 
             </p>
           </div>
           <div id="aboutRight" class="col-md-4">
             <img style="max-width: 60%; min-width:60%; width:60%;" src="./img/Portrait.jpg">
             <br>
-            <p style="color: #212529; padding-top: 2%; margin-bottom: -1%; font-size: 1.1em;">Sérieuse</p>
-            <p style="color: #212529; margin-bottom: -1%; font-size: 1.1em;">Sociable</p>
-            <p style="color: #212529; margin-bottom: -1%; font-size: 1.1em;">Dynamique</p>
-            <p style="color: #212529; margin-bottom: -1%; font-size: 1.1em;">Conscience</p>
+            <p class="timeline-Left" style="color: #212529; padding-top: 2%; margin-bottom: -1%; font-size: 1.1em;">Sérieuse</p>
+            <p class="timeline-Right" style="color: #212529; margin-bottom: -1%; font-size: 1.1em;">Sociable</p>
+            <p class="timeline-Left" style="color: #212529; margin-bottom: -1%; font-size: 1.1em;">Dynamique</p>
+            <p class="timeline-Right" style="color: #212529; margin-bottom: -1%; font-size: 1.1em;">Conscience</p>
           </div>
         </div>
         <div style="padding-bottom: 3%; padding-top: 3%;" class="row text-center">
-          <div class="col-md-12">
+          <div id="btnStart" class="col-md-12">
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger btnApro" href="#portfolio">Découvrez mes éxpériences !</a>
           </div>
         </div>
@@ -120,7 +121,7 @@
         <div class="row">
           <div class="col-lg-12">
             <ul class="timeline">
-              <li>
+              <li class="timeline-Left">
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/bar.png" alt="">
                 </div>
@@ -144,7 +145,7 @@
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <li class="timeline-inverted timeline-Right">
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/serviceP.jpg" alt="">
                 </div>
@@ -164,7 +165,7 @@
                   </div>
                 </div>
               </li>
-              <li>
+              <li class="timeline-Left">
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/gardeE.jpg" alt="">
                 </div>
@@ -175,7 +176,7 @@
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <li class="timeline-inverted timeline-Right">
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/georgesB.jpg" alt="">
                 </div>
@@ -185,7 +186,7 @@
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">    
+              <li class="timeQueue">    
                 <a class="text-uppercase js-scroll-trigger" href="#about">
                 <div class="timeline-image">
                   <h4>continuons
@@ -208,7 +209,7 @@
             <h3 class="section-subheading text-muted">Pourquoi me choisir ?</h3>
           </div>
           <div class="row text-center">
-          <div class="col-md-4">
+          <div id="firstCompe" class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa fa-comments-o fa-stack-1x fa-inverse"></i>
@@ -217,7 +218,7 @@
             <p class="text-muted">Anglais : niveau B1, séjours linguistiques : Londres, Irlande</p>
             <p class="text-muted">Espagnol : niveau B1, séjours linguistiques : Barcelone, Andalousie, Galice</p>
           </div>
-          <div class="col-md-4">
+          <div id="ndCompe" class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
@@ -225,7 +226,7 @@
             <h4 class="service-heading">Informatique</h4>
             <p class="text-muted">Pack-Office : Excel, Word, PowerPoint, Microsoft Access</p>
           </div>
-          <div class="col-md-4">
+          <div id="thirdCompe" class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-plus-circle fa-stack-1x fa-inverse"></i>
@@ -252,7 +253,7 @@
               <span class="fa-stack fa-4x">
                 <i class="fa fa fa-mobile fa-stack-1x fa-inverse"></i>
               </span>
-              <p style="color: white;">07 77 77 77 77</p>
+              <p style="color: white;">06 67 85 80 76</p>
             </div>
             <div class="col-md-4">
               <a href="mailto:maureen.kerma@gmail.com">
@@ -288,6 +289,53 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
 
-  </body>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    window.sr = ScrollReveal();
+    var blocFiveLineLeftReveal = {
+      delay    : 350,
+      origin: 'left',
+      viewFactor: 0.2,
+      distance : '90px',
+      easing   : 'ease-in-out',
+    };
+    var blocFiveLineRightReveal = {
+      delay    : 350,
+      origin: 'right',
+      viewFactor: 0.2,
+      distance : '90px',
+      easing   : 'ease-in-out',
+    };
+    var aProposReveal = {
+      delay    : 150,
+      viewFactor: 0.2,
+      distance : '90px',
+      easing   : 'ease-in-out',
+    };
+    var aProposRevealTwo = {
+      delay    : 350,
+      viewFactor: 0.2,
+      distance : '90px',
+      easing   : 'ease-in-out',
+    };
+    var aProposRevealThird = {
+      delay    : 550,
+      viewFactor: 0.2,
+      distance : '90px',
+      easing   : 'ease-in-out',
+    };
+    sr.reveal('#txtAbout', aProposReveal);
+    sr.reveal('#aboutRight', aProposRevealTwo);
+    sr.reveal('#btnStart', aProposRevealThird);
+    sr.reveal('.timeQueue', aProposReveal);
 
+    sr.reveal('#firstCompe', aProposReveal);
+    sr.reveal('#ndCompe', aProposRevealTwo);
+    sr.reveal('#thirdCompe', aProposRevealThird);
+
+    sr.reveal('.timeline-Left', blocFiveLineLeftReveal);
+    sr.reveal('.timeline-Right', blocFiveLineRightReveal);
+  </script>
+
+  </body>
 </html>

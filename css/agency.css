@@ -148,7 +148,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/wallpHome.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -492,3 +492,7 @@ section#contact {
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+#aboutRight img {
+  border-radius: 5%;
+  border: 1px solid #808080;
+}
