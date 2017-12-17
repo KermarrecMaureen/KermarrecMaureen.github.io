@@ -10,6 +10,21 @@ body {
 p {
   line-height: 1.75; }
 
+#portfolio ul {
+  list-style:none;
+  margin-left:0;
+  padding-left:0; }
+
+#contact i:hover {
+  color: #fed136;
+}
+
+#contact a{
+  text-decoration: none;
+}
+
+#contact
+
 a {
   color: #fed136; }
   a:hover {
@@ -19,7 +34,7 @@ a {
   color: #fed136 !important; }
 
 h1,
-h2,
+h2, 
 h3,
 h4,
 h5,
@@ -30,7 +45,7 @@ h6 {
 section {
   padding: 100px 0; }
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
@@ -43,7 +58,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 25px 0; } }
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -142,16 +157,16 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 125px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 22px;
+      font-size: 15px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 50px;
+      font-size: 25px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
@@ -159,16 +174,16 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-top: 200px;
+    padding-bottom: 140px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
+      font-size: 25px;
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 75px;
+      font-size: 35px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
@@ -440,7 +455,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #212529;
+  background-color: #222222;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
@@ -477,41 +492,3 @@ section#contact {
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-footer {
-  padding: 25px 0;
-  text-align: center; }
-  footer span.copyright {
-    font-size: 90%;
-    line-height: 40px;
-    text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  footer ul.quicklinks {
-    font-size: 90%;
-    line-height: 40px;
-    margin-bottom: 0;
-    text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
-ul.social-buttons {
-  margin-bottom: 0; }
-  ul.social-buttons li a {
-    font-size: 20px;
-    line-height: 40px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    color: white;
-    border-radius: 100%;
-    outline: none;
-    background-color: #212529; }
-    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
-
-#aboutRight img {
-  width: 10%;
-  min-width: 10%;
-  max-width: 10%;
-}
